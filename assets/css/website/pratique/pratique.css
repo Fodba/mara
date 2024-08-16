@@ -1,0 +1,283 @@
+@media screen and (min-width: 1023px) {
+    .head{
+        width: 900px;
+        margin: auto;
+    }
+
+    #sub-n{
+        list-style-type: none;
+        padding: 5px 0 5px 0;
+    }
+
+    .sub-n-item {
+        display: inline-block;
+        margin: 5px 60px 5px 60px;
+    }
+
+    #sub-n a{
+        color: inherit;
+        text-decoration: none;
+        outline: none;
+    }
+
+    #sub-n h2 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .page-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        margin: auto;
+    }
+
+    .block-medium{
+        order: 1;
+        width: 900px;
+        color: black;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .medium, .medium-bio{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .medium{
+        width: 300px;
+    }
+
+    .block-medium .medium-bio{
+        width: 500px;
+        height: 300px;
+    }
+
+    .block-medium-bio{
+        order: 2;
+        padding: 10px;
+        text-align: justify;
+        width: 900px;
+        margin: auto;
+    }
+
+    .block-medium-bio div h2 {
+        font-size: 1.7em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .block-medium-bio div p {
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+    .bio-item h1{
+        font-size: 1.4em;
+    }
+}
+
+
+
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .head{
+        width: 600px;
+        margin: auto;
+    }
+
+    #sub-n{
+        list-style-type: none;
+        padding: 5px 0 5px 0;
+    }
+
+    .sub-n-item {
+        display: inline-block;
+        margin: 5px 30px 5px 30px;
+    }
+
+    #sub-n a{
+        color: inherit;
+        text-decoration: none;
+        outline: none;
+    }
+
+    #sub-n h2 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .sepi {
+        display: none;
+    }
+    .page-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin: auto;
+    }
+
+    .block-medium{
+        order: 1;
+        width: 600px;
+        color: black;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .medium, .medium-bio{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .medium{
+        width: 250px;
+    }
+
+    .block-medium .medium-bio{
+        width: 300px;
+        height: 300px;
+    }
+
+    .block-medium-bio{
+        order: 2;
+        padding: 10px;
+        text-align: justify;
+        width: 600px;
+        margin: auto;
+    }
+
+    .block-medium-bio div h2 {
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .block-medium-bio div p {
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    .bio-item h1{
+        font-size: 1.4em;
+    }
+}
+
+
+
+@media screen and (min-width: 450px) and (max-width: 740px) {
+    .head{
+        width: 600px;
+        margin: auto;
+    }
+
+    #sub-n{
+        list-style-type: none;
+    }
+
+    #sub-n a{
+        color: inherit;
+        text-decoration: none;
+        outline: none;
+    }
+
+    #sub-n h2 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .sepi {
+        display: none;
+    }
+
+    .sub-n-item {
+        display: inline-block;
+        margin: 5px 30px 5px 30px;
+    }
+
+    .page-wrapper{
+        width: 600px;
+        margin: auto;
+    }
+    
+    .block-medium-bio{
+        text-align: justify;
+    }
+
+    .block-medium-bio div h2 {
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .block-medium-bio div p {
+        text-align: justify;
+    }
+
+    .block-medium {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .head {
+        width: 250px;
+        margin: auto;
+}
+
+    #sub-n {
+        list-style-type: none;
+        padding: 5px 0 0 0;
+    }
+
+    #sub-n a {
+        outline: none;
+        text-decoration: none;
+    }
+
+    #sub-n h2 {
+        font-size: .8em;
+    }
+
+    .sepi {
+        display: none;
+    }
+
+    .sub-n-item {
+        margin: 10px auto;
+    }
+
+    .block-medium-bio {
+        /*text-align: justify;*/
+        padding: 8px;
+        font-size: 1em;
+    }
+
+    .block-medium-bio div h2 {
+        font-size: 1.8em;
+    }
+
+    .block-medium-bio div p {
+        text-align: justify;
+    }
+
+    .block-medium {
+        display: none;
+    }
+}
+
+
+.block-medium-bio {
+    padding: 10px;
+}
+
+
+

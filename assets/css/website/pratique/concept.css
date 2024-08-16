@@ -1,0 +1,120 @@
+@media screen and (min-width: 1023px) {
+    .block-mediume{
+        width: 900px;
+        margin: auto;
+    }
+
+    .medium-bio {
+        width: 250px;
+        margin: 0px 20px 10px 20px;
+    }
+
+    .medium-bio h3 {
+        font-size: 1.3em;
+    }
+
+    #definition {
+        width: 600px;
+        margin: auto;
+    }
+
+    .concept-definition {
+        width: 600px;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .block-mediume{
+        width: 700px;
+        margin: auto;
+    }
+
+    .medium-bio {
+        width: 200px;
+        margin: 0px 30px 10px 30px;
+    }
+
+    .medium-bio h3 {
+        font-size: 1.3em;
+    }
+
+    #definition {
+        width: 600px;
+        margin: auto;
+    }
+
+    .concept-definition {
+        width: 600px;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 450px) and (max-width: 740px) {
+    .block-mediume{
+        width: 600px;
+        margin: auto;
+    }
+
+    .medium-bio {
+        width: 200px;
+        margin: 0px 30px 10px 30px;
+    }
+
+    .medium-bio h3 {
+        font-size: 1.5em;
+    }
+
+    .concept-definition {
+        width: 600px;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .medium-bio {
+        width: 100px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .medium-bio h3 {
+        font-size: .75em;
+    }
+
+    .concept-definition {
+        width: 250px;
+    }
+
+}
+
+.medium-bio {
+    border-width: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.concept-definition {
+    display: none;
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.medium-bio:hover{
+    background-color: rgba(29,35,56,1);
+    transition: 0.5s all linear;
+
+}

@@ -1,0 +1,311 @@
+@media screen and (min-width: 1023px) {
+    .medium{
+        width: 900px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .medium-info, .medium-photo-contact{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
+    }
+
+    .medium-info h3{
+        font-size: 1.5em;
+        height: 20px;
+    }
+
+    #contact{
+        width: 650px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    #contact h1{
+        font-size: 1.5em;
+    }
+
+    #contact-form{
+        width: 650px;
+        margin-top: 10px;
+    }
+
+    .texte-demande{
+
+    }
+
+    .texte-demande-title{
+        font-size: 1.5em !important;
+    }
+
+    #id_mode_contact{
+        list-style-type: none;
+    }
+
+    #id_mode_contact li{
+        margin-top: 15px;
+        display: inline-block;
+    }
+
+    #id_mode_contact li label{
+        width: 200px;
+        color: white;
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .messag{
+        padding: 5px;
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    #id_situation_vecue, #id_voeu{
+        width: 500px;
+    }
+
+    .zone_saisie{
+        width: 500px;
+    }
+
+    #id_demande{
+        width: 500px;
+    }
+
+    .bouton{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .medium{
+        /*width: 500px;*/
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .medium-info, .medium-photo-contact{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px;
+    }
+
+    .medium-info h3{
+        font-size: 1.5em;
+        height: 20px;
+    }
+
+    #contact{
+        width: 650px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    #contact h1{
+        font-size: 1.5em;
+    }
+
+    #contact-form{
+        width: 650px;
+        margin-top: 10px;
+    }
+
+    .texte-demande{
+
+    }
+
+    .texte-demande-title{
+        font-size: 1.5em !important;
+    }
+
+    #id_mode_contact{
+        list-style-type: none;
+    }
+
+    #id_mode_contact li{
+        margin-top: 15px;
+        display: inline-block;
+    }
+
+    #id_mode_contact li label{
+        width: 200px;
+        color: white;
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .messag{
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    #id_situation_vecue, #id_voeu{
+        width: 500px;
+    }
+
+    .zone_saisie{
+        width: 500px;
+    }
+
+    #id_demande{
+        width: 500px;
+    }
+
+    .bouton{
+        width: 150px;
+    }
+
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 740px) {
+    .medium{
+        display: none;
+    }
+
+    #contact{
+        width: 600px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    #contact h1{
+        font-size: 2em;
+    }
+
+    #contact-form{
+        width: 550px;
+        margin-top: 10px;
+    }
+
+    .texte-demande{
+
+    }
+
+    .texte-demande-title{
+        font-size: 1.5em !important;
+    }
+
+    #id_mode_contact{
+        list-style-type: none;
+    }
+
+    #id_mode_contact li{
+        margin-top: 15px;
+        display: inline-block;
+    }
+
+    #id_mode_contact li label{
+        width: 200px;
+        color: white;
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .messag{
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    #id_situation_vecue, #id_voeu{
+        width: 500px;
+    }
+
+    .zone_saisie{
+        width: 500px;
+    }
+
+    #id_demande{
+        width: 500px;
+    }
+
+    .bouton{
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .medium{
+        display: none;
+    }
+
+    #contact h1{
+        font-size: 1.8em;
+    }
+
+    #contact-form{
+        width: 250px;
+    }
+
+    .texte-demande{
+
+    }
+
+    .texte-demande-title{
+        font-size: 1.3em !important;
+    }
+
+    #id_mode_contact{
+        list-style-type: none;
+    }
+
+    #id_mode_contact li label{
+        width: 150px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .messag{
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    #id_situation_vecue, #id_voeu{
+        width: 215px;
+    }
+
+    #id_demande{
+        width: 220px;
+    }
+
+
+}
+
+
+#contact-form{
+    margin: auto;
+}
+
+
+#id_demande{
+    resize: none;
+}
+
+
+.bouton{
+    margin-top: 15px;
+    font-weight: bold;
+    border-style: outset;
+    margin-bottom: 15px;
+    border-width: 5px;
+    border-color: white;
+	background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0.5), rgba(255,255,255,0.9));
+	/*background: transparent;*/
+    box-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+.bouton:hover{
+    border-style: inset
+}
+
+
+
+
+
+
+

@@ -1,0 +1,615 @@
+@media screen and (min-width: 1023px) {
+    .theme-section{
+        width: 900px;
+    }
+
+    #theme-description{
+        width: 900px;
+    }
+
+    #titre-theme{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    #sous-titre-theme{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    #texte-theme {
+        font-size: 1.1em;
+    }
+
+    .theme{
+        width: 900px;
+    }
+
+    .demandes{
+        width: 250px;
+        margin: 10px;
+    }
+
+    .demande h2{
+        font-size: 1.5em;
+        height: 60px;
+    }
+
+    /*    start code for the actual button:         */
+    svg{
+        width: 160px;
+        margin: auto;
+        height: 50px;
+    }
+
+    /*
+        This is the outer svg wrapper that the SVG itself will
+        fill. Multiple svg-wrapper classes can be put side by side.
+    */
+    .svg-wrapper {
+      width: 150px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    #shape {
+      width: 150px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    #text div{
+        font-size: 0.8em;
+    }
+
+    .situations, .block_message{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 15px 0 15px;
+        transition: linear 2s;
+    }
+
+    .situations{
+        width: 500px;
+        display: none;
+        transition: linear 2s;
+    }
+
+    .btn_situation{
+        /*background: linear-gradient(to right, transparent, white, transparent);*/
+        --max-width: 450px;
+        --height: auto;
+        line-height: 15px;/*var(--height);*/
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .block_message{
+        width: 200px;
+        display: none;
+    }
+
+    .btn-text{
+        font-size: 1em;
+    }
+}
+
+
+
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .theme-section{
+        width: 600px;
+    }
+
+    #theme-description{
+        width: 600px;
+    }
+
+    #titre-theme{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    #sous-titre-theme{
+        font-size: 1.3em;
+    }
+
+    #texte-theme {
+        font-size: 0.9em;
+    }
+
+    .theme{
+        width: 600px;
+    }
+
+    .demandes{
+        width: 175px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .demande h2{
+        font-size: 1.5em;
+        height: 60px;
+    }
+
+
+
+
+    /*    start code for the actual button:         */
+    svg{
+        width: 160px;
+        margin: auto;
+        height: 50px;
+    }
+
+    /*
+        This is the outer svg wrapper that the SVG itself will
+        fill. Multiple svg-wrapper classes can be put side by side.
+    */
+    .svg-wrapper {
+      width: 150px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    #shape {
+      width: 150px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    #text div{
+      font-size: 0.8em;
+    }
+
+    .situations{
+        width: 300px;
+    }
+
+    .situations, .block_message{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 15px 0 15px;
+    }
+
+    .btn_situation{
+        /*background: linear-gradient(to right, transparent, white, transparent);*/
+        --max-width: 300px;
+        --height: auto;
+        line-height: 15px;/*var(--height);*/
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .block_message{
+        width: 200px;
+    }
+
+    .btn-text{
+        font-size: 1em;
+    }
+
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 740px) {
+    .theme-section{
+        width: 650px;
+    }
+
+    #theme-description{
+        width: 600px;
+    }
+
+    #titre-theme{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    #sous-titre-theme{
+        font-size: 1.3em;
+    }
+
+    #texte-theme {
+    }
+
+    .theme{
+        width: 650px;
+    }
+
+    .demandes{
+        width: 175px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .demande h2{
+        font-size: 1.5em;
+        height: 60px;
+    }
+
+
+    .btn_demande {
+        font-size: 1.2em;
+        height:30px;
+    }
+
+    /*    start code for the actual button:         */
+    svg{
+        width: 160px;
+        margin: auto;
+        height: 50px;
+    }
+
+    /*
+        This is the outer svg wrapper that the SVG itself will
+        fill. Multiple svg-wrapper classes can be put side by side.
+    */
+    .svg-wrapper {
+      width: 150px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    #shape {
+      width: 150px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    .situations{
+        position: relative;
+        left: 50px;
+    }
+
+    #text div{
+      font-size: 0.8em;
+    }
+
+
+.btn_situation{
+	/*background: linear-gradient(to right, transparent, white, transparent);*/
+	--max-width: 500px;
+	--height: auto;
+	line-height: 15px;/*var(--height);*/
+	font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.block_message{
+    /*height: 250px;*/
+    width: 400px;
+    font-size: 1.3em;
+}
+}
+
+
+
+
+@media screen and (max-width:450px){
+    .theme-section{
+    width: 300px;
+    }
+
+    #theme-description{
+        width: 250px;
+    }
+
+    #titre-theme{
+        font-size: 1.1em;
+        margin-bottom: 0;
+    }
+
+    #sous-titre-theme{
+        font-size: 1em;
+    }
+
+    #texte-theme {
+        font-size: 0.6em;
+    }
+
+    .theme{
+        width: 300px;
+    }
+
+    .demandes{
+        width: 90px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .demande h2{
+        font-size: 0.8em;
+        height: 60px;
+    }
+
+
+    .btn_demande {
+        font-size: 0.7em;
+        height:30px;
+    }
+
+    /*    start code for the actual button:         */
+    svg{
+        width: 75px;
+        height: 50px;
+    }
+
+    /*
+        This is the outer svg wrapper that the SVG itself will
+        fill. Multiple svg-wrapper classes can be put side by side.
+    */
+    .svg-wrapper {
+      width: 75px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    #shape {
+      width: 75px;
+      /*make sure to use same height/width as in the html*/
+      height: 50px;
+    }
+
+    /*
+        Pushing the text up into the SVG. Without this the
+        text would be below the div's.
+    */
+    #text div{
+      font-size: 0.5em;
+    }
+
+
+
+.btn_situation{
+	/*background: linear-gradient(to right, transparent, white, transparent);*/
+	--max-width: 250px;
+	--height: auto;
+	line-height: 15px;/*var(--height);*/
+	font-size: .8em;
+}
+
+
+
+
+.block_message{
+    /*height: 250px;*/
+    width: 280px;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.block_message{
+    /* display: none; */
+    overflow-y: hidden;
+    transition: linear 0.5s;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(0,123,255);
+    border-color: rgb(100,100,100);
+
+}
+
+.theme-section{
+    margin: auto;
+}
+
+
+#theme-description{
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#titre-theme{
+    color: red;
+    font-weight: bold;
+}
+
+#sous-titre-theme{
+    color: black;
+}
+
+#texte-theme {
+    color: black;
+}
+
+.theme{
+    margin: auto;
+}
+
+.demandes{
+    border-width: 5px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #aaa;
+}
+
+.demandes:hover{
+    border-color: rgb(255,255,255) !important;
+}
+
+.demande h2{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.btn_demande {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+
+.demandes a, .block_message a, .situations a{
+    /*color: inherit;*/
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-text{
+    color: white !important;
+}
+
+
+/*
+    Spot is the span on the inside of the href that
+    fills the parent and makes the hover and link work
+    for the entire div
+*/
+.spot {
+  position: absolute;
+  /*width: 100%;*/
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+/*
+    This is the outer svg wrapper that the SVG itself will
+    fill. Multiple svg-wrapper classes can be put side by side.
+*/
+.svg-wrapper {
+    padding: 0;
+  margin-top: 0;
+  position: relative;
+  /*make sure to use same height/width as in the html*/
+  display: inline-block;
+  border-radius: 3px;
+}
+
+/*
+  This is where we define the fill, color, thickness,
+  and stroke pattern of the SVG when there is no hover.
+  The dasharray and offset together define the line position
+  under the words. Here's also where the transition speed is set.
+*/
+
+
+#shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: white;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
+}
+
+
+/*
+    Pushing the text up into the SVG. Without this the
+    text would be below the div's.
+*/
+
+#text {
+  margin-top: -35px;
+  text-align: center;
+    height: 100px;
+}
+
+
+#text div{
+  text-decoration: none;
+  font-weight: bold;
+    color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  /*transition: color linear;*/
+    transition-duration: 1000ms;
+}
+
+#text div:hover{
+  color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  /*transition: color linear;*/
+    transition-duration: 1000ms;
+}
+
+
+/*
+    Changing the shape on hover. I change the color of the stroke,
+make it thinner, then set it to again wrap around the entire parent element.
+*/
+
+.svg-wrapper:hover #shape {
+  stroke-dasharray: 50 0;
+  stroke-width: 5px;
+  stroke-dashoffset: 0;
+  stroke: black;
+    fill: white;
+}
+
+.svg-wrapper:hover #text div {
+  color: black;
+  text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+  /*transition: color linear;*/
+    transition: 1s;
+}
+
+.situations {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.situation div{
+    display: block;
+}
+
+.btn_situation{
+	/*background: linear-gradient(to right, transparent, white, transparent);*/
+    padding: 10px;
+	width: var(--max-width);
+	height: var(--height);
+	text-align: center;
+	letter-spacing: 0.2em;
+	border: 1px solid white;
+	border-radius: 2em;
+	transform: perspective(500px) rotateY(-15deg);
+	box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+	position: relative;
+	overflow: hidden;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: rgba(0,0,0,1);
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.btn_situation:hover {
+	transform: perspective(500px) rotateY(15deg);
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn_situation::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, white, transparent);
+	left: -100%;
+	transition: 0.5s;
+}
+
+.btn_situation:hover::before {
+	left: 100%;
+    color:white;
+}
+
+
+

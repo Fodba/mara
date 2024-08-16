@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>TRAVAIL</title>
+    <!-- <meta name="description" content="{{ website.website_description }}"/>
+    <meta name="robots" content="{{ robots }}"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/common/common_base.css" />
+    <link rel="stylesheet" href="./assets/css/website/home/base.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/website/consultation/theme.css"/>
+</head>
+
+<body>
+    <div id="block_page" class="">
+        <header>
+            <div class="logo-title border-box">
+                <h1 class="texte" id="logo-title-item" data-text=" {{ medium.telephone }} ">01 02 03 04 05</h1>
+                <h1 class="texte" id="logo-title-item1" data-text=" {{ medium.email }} ">mara@mara.fr</h1>
+            </div>
+            <div class="menu">
+                <nav class="nav-bar navbar-expand-lg navbar-light bg-ligh ">
+                    <!--<a class="navbar-brand" href="#">Menu</a>-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
+                        aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="container-fluid">
+                        <ul id="nav" class="collapse navbar-collapse nav navbar-nav">
+                            <a href="home.html">
+                                <li class="nav-iteme" id="accueil-item">ACCUEIL</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="concept.html">
+                                <li class="nav-iteme" id="pratique_item1">MA PRATIQUE</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="amour.html">
+                                <li class="nav-iteme">AMOUR</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="travail.html">
+                                <li class="nav-iteme active">TRAVAIL</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a rel="nofollow" href="contact.html">
+                                <li class="nav-iteme" id="contact-item">CONTACT</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="block-logo">
+                <!--<img class="logo" src="{% get_media_prefix %}{{ website.logo }}"/>-->
+            </div>
+        </header>
+
+
+        <section class=" theme-section">
+            <div class="border-box " id="theme-description">
+                <h1 id="titre-theme">De l'amitié à l'amour, de l'amour au mariage !</h1>
+                <hr>
+                <h2 id="sous-titre-theme">DES RITUELS ET DES CONSEILS POUR:</h2>
+                <span id="texte-theme">Faire revenir l'être aimé * La fidélité du conjoint * Fonder une famille</span>
+            </div>
+            <div class="theme">
+                <div class="demandes border-b" data-id="formules">
+                    <div class="demande">
+                    <h2 class="texte_inv">FORMULES RITUELLES</h2>
+                        <!--start button, nothing above this is necessary -->
+                        <!-- <a href="#situations-formules"> -->
+                        <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <rect  id="shape" height="40" width="150" />
+                                <div id="text">
+                                    <div class="btn_demande texte" id="formules"><span class="spot"></span>EN SAVOIR PLUS</div>
+                                </div>
+                            </svg>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                </div>
+                <div class="demandes border-b" data-id="rituels">
+                    <div class="demande">
+                    <h2 class="texte_inv">RITUELS MYSTIQUES</h2>
+                        <!--start button, nothing above this is necessary -->
+                        <!-- <a href="#situations-rituels"> -->
+                        <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <rect  id="shape" height="40" width="150" />
+                                <div id="text">
+                                    <div class="btn_demande texte" id="rituels"><span class="spot"></span>EN SAVOIR PLUS</div>
+                                </div>
+                            </svg>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                </div>
+                <div class="demandes border-b" data-id="recettes">
+                    <div class="demande">
+                    <h2 class="texte_inv">RECETTES</h2>
+                        <!--start button, nothing above this is necessary -->
+                        <!-- <a href="#situations-recettes"> -->
+                        <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <rect  id="shape" height="40" width="150" />
+                                <div id="text">
+                                    <div class="btn_demande texte" id="recettes"><span class="spot"></span>EN SAVOIR PLUS</div>
+                                </div>
+                            </svg>
+                        </div>
+                        <!-- </a> -->
+                    </div>
+                </div>
+                
+            </div>
+            <div id="situations-formules" class="situations">
+                <div class='btn_situation' id='fidelite-1'>S'assurer la fidélité de son conjoint (e):</div>
+            
+                <div class='btn_situation' id='passion-1'>Susciter la passion amoureuse</div>
+            
+                <div class='btn_situation' id='attraction-sympathie-1'>Attirer la sympathie d'un être cher</div>
+            </div>
+            <div id="situations-rituels" class="situations">
+                <div class='btn_situation' id='fidelite-2'>222S'assurer la fidélité de son conjoint (e):</div>
+            
+                <div class='btn_situation' id='passion-2'>Susciter la passion amoureuse</div>
+            
+                <div class='btn_situation' id='attraction-sympathie-2'>Attirer la sympathie d'un être cher</div>
+            </div>
+            <div id="situations-recettes" class="situations">
+                <div class='btn_situation' id='fidelite-3'>333S'assurer la fidélité de son conjoint (e):</div>
+            
+                <div class='btn_situation' id='passion-3'>Susciter la passion amoureuse</div>
+            
+                <div class='btn_situation' id='attraction-sympathie-3'>Attirer la sympathie d'un être cher</div>
+            </div>
+            <div id="block-fidelite-1" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='retour-ex'>
+                        <span class='btn-text'>
+                        Vous êtes confrontés aux problèmes d'infidélité dans votre couple ou trahison au sein de la famille.
+                        Ne vous en faites pas, nous avons des solutions fiables pour consolider votre relation.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="block-passion-1" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='rappel-ex'>
+                        <span class='btn-text'>
+                        Vous n'arrivez pas à susciter la passion de quelqu'un à votre égard?
+                        Ne désesperez pas ! Nous avons tous connus ces moments.
+                        Nous faisons parfois face à des obstacles, mais il y a toujours des moyens de lutter.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="block-attraction-sympathie-1" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='sympathie'>
+                        <span class='btn-text'>
+                        Vous êtes avec des amis, des parents, des collègues ou un autre public qui n'ont aucune interaction positive avec vous,
+                        vous voulez changer cette situation. Ne vous en faites pas, nous trouverons vite ensemble des remèdes efficaces
+                        </span>
+                    </div>
+                </div>
+                    <!--<div id="btn-contact" class="">
+                        <div class="texte">{{ medium.telephone }}</div>
+                    </div>-->
+            </div>
+            <div id="block-fidelite-2" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='retour-ex'>
+                        <span class='btn-text'>
+                        Vous êtes confrontés aux problèmes d'infidélité dans votre couple ou trahison au sein de la famille.
+                        Ne vous en faites pas, nous avons des solutions fiables pour consolider votre relation.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="block-passion-2" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='rappel-ex'>
+                        <span class='btn-text'>
+                        Vous n'arrivez pas à susciter la passion de quelqu'un à votre égard?
+                        Ne désesperez pas ! Nous avons tous connus ces moments.
+                        Nous faisons parfois face à des obstacles, mais il y a toujours des moyens de lutter.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="block-attraction-sympathie-2" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='sympathie'>
+                        <span class='btn-text'>
+                        Vous êtes avec des amis, des parents, des collègues ou un autre public qui n'ont aucune interaction positive avec vous,
+                        vous voulez changer cette situation. Ne vous en faites pas, nous trouverons vite ensemble des remèdes efficaces
+                        </span>
+                    </div>
+                </div>
+                    <!--<div id="btn-contact" class="">
+                        <div class="texte">{{ medium.telephone }}</div>
+                    </div>-->
+            </div>
+            <div id="block-fidelite-3" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='retour-ex'>
+                        <span class='btn-text'>
+                        Vous êtes confrontés aux problèmes d'infidélité dans votre couple ou trahison au sein de la famille.
+                        Ne vous en faites pas, nous avons des solutions fiables pour consolider votre relation.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="block-passion-3" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='rappel-ex'>
+                        <span class='btn-text'>
+                        Vous n'arrivez pas à susciter la passion de quelqu'un à votre égard?
+                        Ne désesperez pas ! Nous avons tous connus ces moments.
+                        Nous faisons parfois face à des obstacles, mais il y a toujours des moyens de lutter.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="block-attraction-sympathie-3" class="block_message border-b animated zoomIn">
+                <div id="messages">
+                    <div class='btn_message' id='sympathie'>
+                        <span class='btn-text'>
+                        Vous êtes avec des amis, des parents, des collègues ou un autre public qui n'ont aucune interaction positive avec vous,
+                        vous voulez changer cette situation. Ne vous en faites pas, nous trouverons vite ensemble des remèdes efficaces
+                        </span>
+                    </div>
+                </div>
+                    <!--<div id="btn-contact" class="">
+                        <div class="texte">{{ medium.telephone }}</div>
+                    </div>-->
+            </div>
+        </section>
+
+    </div>
+
+<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/js/theme.js"></script>
+<!--     <script>
+        $(document).ready(function(){
+    $(".btn_demande").click(function(){
+        var demande = $(this).attr('id');
+        //alert(demande);
+        $("#block-messages").css("display","none");
+        $("#messages").css("display","none");
+
+        $("#btn-contact").removeClass('btn_up');
+        $("#btn-contact").removeClass('border-box');
+
+
+        $.ajax({
+            url: "{% url 'mara:getSituation' %}",
+            data: {
+                'demande': demande
+            },
+            dataType: 'json',
+            success: function (data) {
+                if(data.messages){
+                    var messages = $.parseJSON(data.messages);
+                    //alert(messages);
+                    var div_messages = "";
+                    for(var i=0;i<messages.length;i++){
+                        var c_id = messages[i][2];
+                        //alert(c_id);
+                        div_messages += "<a href='"+c_id+"'><div class='btn_message' id='"+messages[i][0]+"'><span class='btn-text '>"+messages[i][1]+"</span></div></a>";
+                        //alert(div_messages);*/
+                    }
+
+
+                    $("#block-messages").css("display","none");
+                    $("#messages").css("display","none");
+                    $("#messages").empty();
+                    $("#messages").append(div_messages);
+
+
+                }
+                if(data.situations){
+                    var situations = $.parseJSON(data.situations);
+                    var div_situations = "";
+                    for(var i=0;i<situations.length;i++){
+                        div_situations += "<a href='#block-messages'><div class='btn_situation' id='"+situations[i][2]+"-1'>"+situations[i][1]+"</div></a>";
+                    }
+
+                    $("#situations").empty();
+                    $("#situations").append(div_situations);
+
+
+
+                }
+                $('.btn_situation').click(function () {
+                    var identifiant = $(this).attr("id");
+                    var selection = document.getElementById(identifiant.slice(0,-2));
+                    var others = document.getElementsByClassName("btn_message");
+                    $("#messages").css("display","inline-block");
+                    $("#block-messages").css("display","inline-block");
+                    for(var el of others){
+                        $(el).css("display","none");
+                    }
+                    $(selection).css("display",'block');
+
+                });
+            }
+        });
+
+
+    });
+
+
+
+
+});
+    </script> -->
+
+
+
+

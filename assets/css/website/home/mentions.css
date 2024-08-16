@@ -1,0 +1,26 @@
+.mentions{
+    padding: 15px;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.mentions h1, .mentions h2, .mentions h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: red;
+}
+.mentions p{
+    font-size: 1.5em;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.mentions a{
+}

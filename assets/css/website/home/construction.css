@@ -1,0 +1,43 @@
+@media screen and (min-width: 1023px){
+    .construction{
+        width: 900px;
+    }
+}
+@media screen and (min-width: 740px) and (max-width: 1023px){
+    .construction{
+        width: 600px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 740px){
+    .construction{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 450px){
+    .construction{
+        width: 250px;
+    }
+}
+
+
+.construction{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,195 @@
+@media screen and (min-width: 1023px) {
+    body {
+        background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../images/geomancie_africaine.jpg");
+    background-attachment: fixed;
+    }
+
+    #block_page{
+        width: 1000px;
+        min-height: 1100px;
+    }
+}
+
+
+
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    body {
+        background-size: 100% 1100px;
+    }
+
+    #block_page{
+        width: 700px;
+        min-height: 1100px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 450px) and (max-width: 740px) {
+    body{
+        background-size: 100% 666px;
+    }
+
+    #block_page{
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background-size: 100% 800px;
+    }
+
+    #block_page {
+        width: 330px;
+        min-height: 600px;
+    }
+}
+
+body {
+    background-color: black !important;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-image: url("../../images/geomancie_africaine.jpg");
+    background-attachment: fixed;
+}
+
+
+#block_page{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    padding: 5px;
+    position: relative;
+}
+
+
+.border {
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+    box-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+
+.border-b {
+    border-style: double;
+    border-width: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+
+.border-box {
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+    background: linear-gradient(to right, transparent, white, transparent), linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.2), transparent);
+    box-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+.texte {
+    color: black;
+}
+
+
+.texte_inv {
+    color: white;
+}
+
+.highlight{
+    /*animation: blinker 1s linear infinite !important;*/
+    color: red;
+    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+
+@-webkit-keyframes rollInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rollInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.rollInLeft {
+  -webkit-animation-name: rollInLeft;
+  animation-name: rollInLeft;
+}
+
+
+
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+
+
+
+
+
+

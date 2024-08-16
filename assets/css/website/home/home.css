@@ -1,0 +1,160 @@
+@media screen and (min-width: 1023px) {
+    .block-medium{
+        margin: 15px auto;
+    }
+
+    .medium, .medium-bio{
+        display: inline-block;
+        vertical-align: middle;
+        width: 450px;
+    }
+
+    .medium{
+        width: 350px;
+    }
+
+    .medium-bio{
+        width: 550px;
+        /*height: 350px;*/
+    }
+
+    .mef1 h1{
+        font-size: 1.8em;
+    }
+
+    .texte1{
+        font-size: 1.1em;
+        color: red;
+
+    }
+
+    .texte2 h2{
+        font-size: 1.4em;
+
+    }
+
+    .block-medium-bio{
+        padding: 10px;
+        text-align: center;
+        width: 900px;
+        margin: auto;
+    }
+
+    .block-medium-bio h3, .block-medium-bio h2{
+        /*text-align: center;*/
+    }
+
+    .block-medium-bio h3, .block-medium-bio h4{
+        font-size: 1.7em;
+    }
+
+    .block-medium-bio p {
+        font-size: 1.2em;
+    }
+}
+
+
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .page-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-medium{
+        order: 1;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .block-medium-bio{
+        order: 2;
+        padding: 10px;
+        text-align: center;
+        width: 650px;
+        margin: auto;
+    }
+
+    .medium, .medium-bio{
+        /*display: inline-block;*/
+        width: 600px;
+        vertical-align: middle;
+    }
+
+    .medium{
+        display: none;
+        width: 300px;
+        vertical-align: middle;
+    }
+
+    .mef1 h1{
+        font-size: 1.3em;
+    }
+
+    .texte1{
+        font-size: 0.7em;
+
+    }
+
+    .texte2 h2{
+        font-size: 1em;
+
+    }
+
+    .block-medium-bio h3, .block-medium-bio h4{
+        font-size: 1.2em;
+    }
+
+    .block-medium-bio p {
+        font-size: .8em;
+    }
+}
+
+
+
+@media screen and (min-width: 450px) and (max-width: 740px) {
+    .block-medium{
+        display: none;
+    }
+
+    .block-medium-bio{
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .block-medium-bio h3, .block-medium-bio h4{
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .block-medium {
+        display: none;
+    }
+
+    .block-medium-bio {
+        color: white;
+        padding: 8px;
+        text-align: justify;
+    }
+
+    .block-medium-bio h3 {
+        font-size: 1.17em;
+    }
+
+    .block-medium-bio h4 {
+        font-size: 1em;
+    }
+
+    .block-medium-bio p {
+        font-size: .8em;
+    }
+}
+
+.texte1{
+    color: red;
+}

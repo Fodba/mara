@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CONTACT</title>
+    <!-- <meta name="description" content="{{ website.website_description }}"/>
+    <meta name="robots" content="{{ robots }}"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/common/common_base.css" />
+    <link rel="stylesheet" href="./assets/css/website/home/base.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/website/home/contact.css" />
+</head>
+
+<body>
+    <div id="block_page" class="">
+        <header>
+            <div class="logo-title border-box">
+                <h1 class="texte" id="logo-title-item" data-text=" {{ medium.telephone }} ">01 02 03 04 05</h1>
+                <h1 class="texte" id="logo-title-item1" data-text=" {{ medium.email }} ">mara@mara.fr</h1>
+            </div>
+            <div class="menu">
+                <nav class="nav-bar navbar-expand-lg navbar-light bg-ligh ">
+                    <!--<a class="navbar-brand" href="#">Menu</a>-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
+                        aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="container-fluid">
+                        <ul id="nav" class="collapse navbar-collapse nav navbar-nav">
+                            <a href="home.html">
+                                <li class="nav-iteme" id="accueil-item">ACCUEIL</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="concept.html">
+                                <li class="nav-iteme" id="pratique_item1">MA PRATIQUE</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="amour.html">
+                                <li class="nav-iteme">AMOUR</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="travail.html">
+                                <li class="nav-iteme">TRAVAIL</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a rel="nofollow" href="contact.html">
+                                <li class="nav-iteme active" id="contact-item">CONTACT</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="block-logo">
+                <!--<img class="logo" src="{% get_media_prefix %}{{ website.logo }}"/>-->
+            </div>
+        </header>
+
+
+        <section>
+                <div class="medium border-box">
+                    <!--<img class="medium-photo-contact" alt="{{ medium.photo_texte }}" src="{{ medium.photo }}"/>-->
+                    <div class="medium-info texte">
+                        <h3>Demandez votre consultation avec MARA</h3>
+                        <h3>01 02 03 04 05</h3>
+                        <h3>mara@mara.fr</h3>
+                    </div>
+                </div>
+                <!-- {% if contact_type == 1 %}
+                <form id="contact" class="" action="{% url 'mara:contact' %}" method="post">
+                {% else %}
+                <form id="contact" class="" action="{% url 'mara:contact2' messag.id %}" method="post">
+                {% endif %}
+                {% csrf_token %} -->
+                <form id="contact" class="" action="" method="post">
+                    <h1 class="texte border-box">MA PREMIERE CONSULTATION</h1>
+                    <div id="contact-form" class="">
+                        <div class="texte-demande">
+                            <h1 class="texte-demande-title texte border-box">Je souhaite obtenir une consultation</h1>
+                            <!-- <span class=" texte">{{ form.mode_contact }}</span> -->
+                            <select id="mode_contact">
+                                <option value="telephone">Par téléphone</option>
+                                <option value="mail">Par mail</option>
+                            </select>
+                        </div>
+                        <!-- {% if messag %}
+                        <h3 class="messag texte_inv border-b">{{ messag|safe }}</h3>
+                        {% endif %} -->
+                        <div id="inner-form" class="border-b">
+                            <div class="champs">
+                                <div class="champs_label texte_inv">Actuellement, vous</div>
+                                <div>
+                                    <!-- {{ form.situation_vecue }} -->
+                                    <select id="situation_vecue">
+                                        <option value="1">Vous ne vivez plus le parfait amour?</option>
+                                        <option value="2">Depuis son départ vous êtes malheureux?</option>
+                                        <option value="3">Vous vous sentez seul ?</option>
+                                        <option value="4">Vous manquez de confiance?</option>
+                                        <option value="5">Vous n'arrivez pas à former un couple?</option>
+                                        <option value="6">Vous vous sentez trahi(e) ou trompé(e)?</option>
+                                        <option value="7">Vous vivez dans le tabou ou la culpabilité?</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="champs">
+                                <div class="champs_label texte_inv">Et vous souhaitez</div>
+                                <div>
+                                    <!-- {{ form.voeu }} -->
+                                    <select id="voeu">
+                                        <option value="1">Améliorer la communication dans le couple</option>
+                                        <option value="2">Rencontrer l'âme soeur</option>
+                                        <option value="3">Ressortir avec votre ex</option>
+                                        <option value="4">Renouer le contact avec la famille</option>
+                                        <option value="5">Savoir si cette personne vous aime</option>
+                                        <option value="6">Faire cesser l'infidélité de votre conjoint(e)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="champs">
+                                <div class="champs_label texte_inv">NOM</div>
+                                <div><input type="text" class="zone_saisie" name="nom" /></div>
+                            </div>
+                            <div class="champs">
+                                <div class="champs_label texte_inv">PRENOM</div>
+                                <div><input type="text" class="zone_saisie" name="prenom" /></div>
+                            </div>
+                            <div class="champs">
+                                <div class="champs_label texte_inv">EMAIL</div>
+                                <div><input type="text" class="zone_saisie" name="email" /></div>
+                            </div>
+                            <div class="champs">
+                                <div class="champs_label texte_inv">TELEPHONE</div>
+                                <div><input type="text" class="zone_saisie" name="telephone" /></div>
+                            </div>
+                            <div class="champs">
+                                <div class="champs_label texte_inv">Demande</div>
+                                <div><textarea class="zone_saisie" name="demande" ></textarea></div>
+                            </div>
+                            <div class="champs">
+                                <span><input type="checkbox" name="cgv"></span>
+                                <span class="texte_inv">En validant, vous acceptez que vos coordonnées soient utilisées pour vous recontacter.</span>
+                            </div>
+                            <button class="bouton texte" type="submit">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+        </section>
+
+    </div>
+</body>
+
+

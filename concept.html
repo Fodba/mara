@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ma pratique</title>
+    <!-- <meta name="description" content="{{ website.website_description }}"/>
+    <meta name="robots" content="{{ robots }}"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/common/common_base.css" />
+    <link rel="stylesheet" href="./assets/css/website/home/base.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/website/pratique/concept.css" />
+</head>
+
+<body>
+    <div id="block_page" class="">
+        <header>
+            <div class="logo-title border-box">
+                <h1 class="texte" id="logo-title-item" data-text=" {{ medium.telephone }} ">01 02 03 04 05</h1>
+                <h1 class="texte" id="logo-title-item1" data-text=" {{ medium.email }} ">mara@mara.fr</h1>
+            </div>
+            <div class="menu">
+                <nav class="nav-bar navbar-expand-lg navbar-light bg-ligh ">
+                    <!--<a class="navbar-brand" href="#">Menu</a>-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
+                        aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="container-fluid">
+                        <ul id="nav" class="collapse navbar-collapse nav navbar-nav">
+                            <a href="home.html">
+                                <li class="nav-iteme" id="accueil-item">ACCUEIL</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="concept.html">
+                                <li class="nav-iteme active" id="pratique_item1">MA PRATIQUE</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="amour.html">
+                                <li class="nav-iteme">AMOUR</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a href="travail.html">
+                                <li class="nav-iteme">TRAVAIL</li>
+                            </a>
+                            <li class="sepi"></li>
+                            <a rel="nofollow" href="contact.html">
+                                <li class="nav-iteme" id="contact-item">CONTACT</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="block-logo">
+                <!--<img class="logo" src="{% get_media_prefix %}{{ website.logo }}"/>-->
+            </div>
+        </header>
+
+        <section class="block-mediume">
+            
+            <div class="medium-bio border-box">
+                    <h3 id="concept-geomancie" class="texte concept-name">Géomancie</h3>
+                <!--<h2 class="texte">{{ forloop.counter}}</h2>-->
+            </div>
+            
+            
+            <div class="medium-bio border-box">
+                    <h3 id="concept-numerologie" class="texte concept-name">Numérologie</h3>
+                <!--<h2 class="texte">{{ forloop.counter}}</h2>-->
+            </div>
+            
+            
+            <div class="medium-bio border-box">
+                    <h3 id="concept-astrologie" class="texte concept-name">Astrologie</h3>
+                <!--<h2 class="texte">{{ forloop.counter}}</h2>-->
+            </div>
+            
+        </section>
+
+        <section id="definition">
+            
+            <div id="def-geomancie" class="texte_inv border-b concept-definition">
+                <p>Selon Wikipédia, &nbsp;"la <span style=\"color:#ff0000\">géomancie</span> est une technique
+                    divinatoire&nbsp;fondée sur l'analyse de figures composées par la combinaison de quatre points
+                    simples ou doubles (aussi appélée "maison")."
+                </p>
+                <p>Le médium qui pratique la géomancie distingue deux&nbsp; aspects:
+                </p>
+                <p>&nbsp; &nbsp; - Tout d'abord, il y a <span
+                        style=\"color:#ff0000\">l'aspect mystique</span>. La géomancie est une fen&ecirc;tre sur
+                    l'avenir. Elle nous donne un réel aperçu des possibilités contenues dans notre futur.</p>
+                \r\n\r\n<p>&nbsp; &nbsp; - Ensuite vient <span style=\"color:#ff0000\">la dimension&nbsp;rituelle</span>. Il
+                    s'agit&nbsp;de l'ensemble&nbsp;des recettes à suivre afin d'influer sur le futur cours des
+                    événements.</p>\r\n\r\n<p>Il est à savoir que la voyance par géomancie donne des <span
+                        style=\"color:#ff0000\">RESULTATS DIRECTS</span>.</p>
+            </div>
+            
+            
+            <div id="def-numerologie" class="texte_inv border-b concept-definition">
+                <p>L'un des grands secrets de l'univers est que tout est <span style=\"color:#ff0000\">inscrit dans les
+                        nombres</span>. La numérologie est la science qui nous permet de traduire ce qui se cache
+                    derrière&nbsp;ces nombres.</p>\r\n\r\n<p>Depuis des siècles, elle&nbsp;sert à analyser
+                    notre&nbsp;caractère&nbsp;et découvrir notre&nbsp;véritable&nbsp;personnalité.</p>
+                \r\n\r\n<p>Par exemple, votre <span style=\"color:#ff0000\">date de naissance</span> a plus d'importance que vous ne
+                    l'imaginez.</p>
+            </div>
+            
+            
+            <div id="def-astrologie" class="texte_inv border-b concept-definition">
+                <p><span style=\"color:#ff0000\">L'astrologie</span> est définie comme une méthode pour
+                    déterminer le destin et le caractère des hommes par l'étude de l'influence des astres.
+                </p>\r\n\r\n<p>Cela signifie que <span style=\"color:#ff0000\">les planètes, les étoiles et les
+                        constellations</span> jouent un r&ocirc;le dans votre destinée et votre avenir.</p>\r\n\r\n<p>
+                    L'astrologue est donc un voyant médium qui saura visualiser, à travers&nbsp;<span
+                        style=\"color:#ff0000\">la&nbsp;configuration cosmique</span> de votre ciel de naissance, les grandes lignes de
+                    votre parcours de vie.&nbsp;</p>
+            </div>
+            
+        </section>
+
+        
+    </div>
+
+
+<script type="text/javascript" src="assets/js/pratique.js"></script>
+</body>
